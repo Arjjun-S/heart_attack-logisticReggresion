@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix, accuracy_score
 #dataset
-df = pd.read_csv(r"C:\Users\thiru\Downloads\Medicaldataset.csv")
+df = pd.read_csv("Medicaldataset.csv")
 #Check and print null values
 print("Null values before cleaning:\n", df.isnull().sum())
 #there is no null values in the data set
